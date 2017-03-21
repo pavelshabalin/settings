@@ -1,0 +1,7 @@
+<list display="GIt">
+  <action id="ChangesView.Commit" />
+  <action id="Git.Pull" />
+  <action id="Vcs.Push" />
+  <action id="ChangesView.Browse" />
+  <action id="CommittedChanges.Revert" />
+</list>

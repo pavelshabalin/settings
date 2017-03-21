@@ -1,0 +1,10 @@
+<code_scheme name="Default (1)">
+  <codeStyleSettings language="JAVA">
+    <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
+    <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
+    <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
+    <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
+    <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
+    <option name="ENUM_CONSTANTS_WRAP" value="1" />
+  </codeStyleSettings>
+</code_scheme>
