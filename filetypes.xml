@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".settings.gradle.swp" type="PLAIN_TEXT" />
+      <mapping pattern=".README.md.swp" type="PLAIN_TEXT" />
       <mapping ext="jcash" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
