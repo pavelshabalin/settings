@@ -1,0 +1,13 @@
+<application>
+  <component name="SonarLintGlobalSettings">
+    <option name="sonarQubeServers">
+      <list>
+        <SonarQubeServer>
+          <option name="hostUrl" value="https://sonar.intapp.com" />
+          <token>dfccdf9fdfccdf9cdf9adf9bdf9cdf9edf9cdf9cdfc8dfcedfcbdfccdfc9df9bdf9cdfcfdf9ddf93dfccdfcedfcbdfcedfc8df93df98df93df93dfcedfcfdf9ddfcfdf9cdf99dfcedf9fdf9ddfcedf9d</token>
+          <option name="name" value="sonar.intapp.com" />
+        </SonarQubeServer>
+      </list>
+    </option>
+  </component>
+</application>
