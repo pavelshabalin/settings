@@ -1,5 +1,6 @@
 <application>
   <component name="ExternalResourceManagerImpl">
     <resource url="http://plugins.intellij.net/revu/ns/revu_1_0.xsd" location="$USER_HOME$/file:/home/green/.IdeaIC2016.3/config/plugins/revu.jar!/org/sylfra/idea/plugins/revu/resources/schemas/revu_1_0.xsd" />
+    <resource url="http://soap.sforce.com/2006/04/metadata" location="$APPLICATION_PLUGINS_DIR$/IlluminatedCloud/lib/IlluminatedCloud.jar!/xsd/metadata.xsd" />
   </component>
 </application>
