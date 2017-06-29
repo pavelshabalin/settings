@@ -1,0 +1,16 @@
+<templateSet group="TestingSuite">
+  <template name="gsfp" value="public static ProviderTestingSuite&lt;$ENTITY_TYPE$, $DTO_TYPE$&gt; getSuiteFor$PROVIDER_NAME$($PROVIDER_TYPE$ $PROVIDER_INST$){&#10;    $DTO_TYPE$ $DTO_TEMPLATE$Template = new $DTO_TYPE$()&#10;            .setID(1);&#10;    $ENTITY_TYPE$ $ENTITY_TEMPLATE$Template = new $ENTITY_TYPE$()&#10;            .setId(1);&#10;            &#10;}" description="getsuiteFor%Provider" toReformat="false" toShortenFQNames="true">
+    <variable name="PROVIDER_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROVIDER_NAME" expression="" defaultValue="PROVIDER_TYPE" alwaysStopAt="true" />
+    <variable name="ENTITY_TYPE" expression="expectedType()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DTO_TYPE" expression="expectedType()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DTO_TEMPLATE" expression="camelCase($DTO_TYPE$)" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROVIDER_INST" expression="camelCase(PROVIDER_NAME)" defaultValue="" alwaysStopAt="true" />
+    <variable name="ENTITY_TEMPLATE" expression="camelCase(ENTITY_TYPE)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+</templateSet>
