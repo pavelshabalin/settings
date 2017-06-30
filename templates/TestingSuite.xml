@@ -29,4 +29,12 @@
       <option name="JAVA_STRING" value="false" />
     </context>
   </template>
+  <template name="cct" value="import org.junit.Before;&#10;import org.junit.Test;&#10;import org.junit.runner.RunWith;&#10;import org.mockito.InjectMocks;&#10;import org.mockito.MockitoAnnotations;&#10;import org.springframework.boot.test.context.SpringBootTest;&#10;import org.springframework.test.context.ActiveProfiles;&#10;import org.springframework.test.context.junit4.SpringRunner;&#10;&#10;&#10;@RunWith(SpringRunner.class)&#10;@SpringBootTest&#10;@ActiveProfiles(&quot;test&quot;)&#10;public class $TEST_CLASS$ {&#10;&#10;    @InjectMocks&#10;    private $CONVERTER_CLASS$ $CONVERTER_FIELD$; &#10;    &#10;    @Before&#10;    public void initMock(){&#10;        MockitoAnnotations.initMocks(this);&#10;        &#10;    }&#10;    &#10;    @Test&#10;    public void convertDtoToEntityTest(){&#10;        $END$&#10;    }&#10;}" description="Create Converter test" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="TEST_CLASS" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="CONVERTER_CLASS" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONVERTER_FIELD" expression="camelCase(CONVERTER_CLASS)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
