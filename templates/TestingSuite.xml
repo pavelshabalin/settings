@@ -43,4 +43,12 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="cpt" value="import com.intapp.platform.cds.dto.Address;&#10;import com.intapp.platform.users.domain.dal.entities.AddressEntity;&#10;import org.junit.Before;&#10;import org.junit.Test;&#10;import org.junit.runner.RunWith;&#10;import org.springframework.beans.factory.annotation.Autowired;&#10;import org.springframework.boot.test.context.SpringBootTest;&#10;import org.springframework.test.context.ActiveProfiles;&#10;import org.springframework.test.context.jdbc.Sql;&#10;import org.springframework.test.context.junit4.SpringRunner;&#10;&#10;import static org.assertj.core.api.Assertions.assertThat;&#10;import static org.mockito.MockitoAnnotations.initMocks;&#10;&#10;@RunWith(SpringRunner.class)&#10;@SpringBootTest&#10;@ActiveProfiles(&quot;test&quot;)&#10;@Sql(&quot;/sampledata/data_set.sql&quot;)&#10;public class $TEST_CLASS$ {&#10;&#10;    @Autowired&#10;    private $POVIDER_ENTITY_CLASS$Provider $POVIDER$;&#10;&#10;    @Test&#10;    public void get$POVIDER_ENTITY_CLASS$EntityTest() {&#10;&#10;        $POVIDER_ENTITY_CLASS$ dto = new $POVIDER_ENTITY_CLASS$()&#10;                .setId(1);&#10;&#10;        $POVIDER_ENTITY_CLASS$Entity entity = this.$POVIDER$.get$POVIDER_ENTITY_CLASS$Entity(dto);&#10;        assertThat(entity.getId()).isEqualTo(1);&#10;        assertThat(entity.).isEqualTo();&#10;    }&#10;}" description="Create provider test" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="TEST_CLASS" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="POVIDER_ENTITY_CLASS" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="POVIDER" expression="camelCase(TEST_CLASS)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
