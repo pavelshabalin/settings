@@ -37,4 +37,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="tm" value="@Test&#10;public void $ANY$Test(){&#10;    // Arrange&#10;    $END$&#10;    &#10;    // Act&#10;    &#10;    // Assert&#10;    &#10;    assertThat();&#10;}" description="Test Method" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="ANY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
