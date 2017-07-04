@@ -1,0 +1,14 @@
+<application>
+  <component name="sonarServers">
+    <option name="beans">
+      <list>
+        <SonarServerConfig>
+          <option name="hostUrl" value="https://sonar.intapp.com" />
+          <option name="name" value="sonar.intapp.com" />
+          <option name="passwordChanged" value="true" />
+          <option name="user" value="pavel.shabalin@akvelon.com" />
+        </SonarServerConfig>
+      </list>
+    </option>
+  </component>
+</application>
