@@ -6,6 +6,7 @@
       <mapping pattern=".README.md.swp" type="PLAIN_TEXT" />
       <mapping ext="jcash" type="PLAIN_TEXT" />
       <mapping ext="lombok" type="PLAIN_TEXT" />
+      <mapping ext="jfpr" type="PLAIN_TEXT" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
