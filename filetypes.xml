@@ -4,6 +4,7 @@
       <removed_mapping ext="css" type="CSS" />
       <mapping pattern=".settings.gradle.swp" type="PLAIN_TEXT" />
       <mapping pattern=".README.md.swp" type="PLAIN_TEXT" />
+      <mapping ext="stub" type="PLAIN_TEXT" />
       <mapping ext="jcash" type="PLAIN_TEXT" />
       <mapping ext="lombok" type="PLAIN_TEXT" />
       <mapping ext="jfpr" type="PLAIN_TEXT" />
