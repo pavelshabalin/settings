@@ -1,0 +1,7 @@
+<application>
+  <component name="ConfigurableState">
+    <option name="host" value="https://gitlab.intapp.com" />
+    <option name="token" value="keycWzxTpbrD5pLaJbRd" />
+    <option name="ignoreCertificateErrors" value="false" />
+  </component>
+</application>
