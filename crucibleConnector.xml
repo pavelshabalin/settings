@@ -1,6 +1,6 @@
 <application>
   <component name="CrucibleSettings">
-    <option name="SERVER_URL" value="https://github.com" />
-    <option name="USERNAME" value="shabalin.pv@gmail.com" />
+    <option name="SERVER_URL" value="https://gitlab.intapp.com" />
+    <option name="USERNAME" value="pavel.shabalin@akvelon.com" />
   </component>
 </application>
