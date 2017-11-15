@@ -54,6 +54,10 @@
           <option name="url" value="git@gitlab.intapp.com:intappx/ods-mirage.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/intappx/cloud-gateway-service.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/intappx" />
