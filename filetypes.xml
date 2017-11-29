@@ -9,10 +9,11 @@
       <mapping pattern="COPYRIGHT" type="PLAIN_TEXT" />
       <mapping pattern=".README.md.swp" type="PLAIN_TEXT" />
       <mapping ext="stub" type="PLAIN_TEXT" />
+      <mapping ext="sass" type="PLAIN_TEXT" />
       <mapping ext="jcash" type="PLAIN_TEXT" />
       <mapping ext="lombok" type="PLAIN_TEXT" />
-      <mapping ext="sass" type="PLAIN_TEXT" />
       <mapping ext="jfpr" type="PLAIN_TEXT" />
+      <mapping pattern="variables" type="Terraform" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
